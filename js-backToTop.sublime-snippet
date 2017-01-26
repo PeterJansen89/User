@@ -3,7 +3,7 @@
 
 <![CDATA[
 
-// BACK TO TOP (hide and show button)
+// BACK TO TOP (hide and show button) Hallo Leon
 \$(document).scroll(function() {
     var y = \$(this).scrollTop();
     if (y > 800) {
