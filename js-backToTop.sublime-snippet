@@ -1,0 +1,30 @@
+<snippet>
+	<content>
+
+<![CDATA[
+
+// BACK TO TOP (hide and show button)
+\$(document).scroll(function() {
+    var y = \$(this).scrollTop();
+    if (y > 800) {
+        \$('.${1:js-buttonName}').fadeIn();
+    } else {
+        \$('.${1:js-buttonName}').fadeOut();
+    }
+});
+
+// BACK TO TOP (button click)
+\$('.${1:js-buttonName}').click(function () { 
+    scrollToTopOf("body", 2000); 
+});
+
+]]>	
+
+	</content>
+
+
+	<tabTrigger>jsbacktotop</tabTrigger>
+	<description>Script: Scroll to Top</description>
+	<scope>source.js</scope>
+
+</snippet>

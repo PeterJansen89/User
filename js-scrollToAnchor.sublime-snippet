@@ -1,0 +1,25 @@
+<snippet>
+	<content>
+
+<![CDATA[
+
+// SCROLL TO ANCHOR
+\$(".${1:js-buttonName}").click(function () { 
+  scrollToTop("#${2:js-anchorId}", 2000); 
+});
+
+function scrollToTop(selector, ms, cb) {
+    var navHeight = \$('.${3:js-fixedNav}').height() + 10; 
+    \$('html, body').animate({ scrollTop: \$(selector).offset().top - navHeight }, ms);
+};
+
+]]>	
+
+	</content>
+
+
+	<tabTrigger>jsscrolltoanchor</tabTrigger>
+	<description>Script: Scroll to Anchor</description>
+	<scope>source.js</scope>
+
+</snippet>
