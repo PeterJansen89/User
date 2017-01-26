@@ -3,7 +3,7 @@
 
 <![CDATA[
 
-// BACK TO TOP (hide and show button) hoi luuk
+// BACK TO TOP (hide and show button)
 \$(document).scroll(function() {
     var y = \$(this).scrollTop();
     if (y > 800) {
