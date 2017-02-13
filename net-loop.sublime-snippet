@@ -1,0 +1,20 @@
+<snippet>
+	<content>
+
+<![CDATA[
+	<ul>
+	@for(var i = 0; i < 9; i++)
+	{
+		<li>item</li>
+	}
+	</ul>
+]]>	
+
+	</content>
+
+
+	<tabTrigger>netloop</tabTrigger>
+	<description>Script: Viewport Checker</description>
+	<scope>source.html</scope>
+
+</snippet>
