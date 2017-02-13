@@ -15,6 +15,6 @@
 
 	<tabTrigger>netloop</tabTrigger>
 	<description>Script: Viewport Checker</description>
-	<scope>source.html</scope>
+	<scope>text.html</scope>
 
 </snippet>
