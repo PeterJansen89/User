@@ -1,19 +1,19 @@
 <snippet>
 	<content>
 
-<![CDATA[
+	<![CDATA[
 
-// MATCH DATA-ID
-\$('.${1:js-buttonName}').on('click', function () {
-    var \$this = \$(this);
-    var id = \$this.data('id');
-    var \$matchedClass = \$('.${1:js-matchedClass}[data-id=' + id + ']');
+	// MATCH DATA-ID
+	\$('.${1:js-buttonName}').on('click', function () {
+	    var \$this = \$(this);
+	    var id = \$this.data('id');
+	    var \$matchedClass = \$('.${1:js-matchedClass}[data-id=' + id + ']');
 
-    // do something
-    \$matchedClass.fadeIn();
-});
+	    // do something
+	    \$matchedClass.fadeIn();
+	});
 
-]]>	
+	]]>	
 
 	</content>
 

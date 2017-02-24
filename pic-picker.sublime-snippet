@@ -1,0 +1,28 @@
+<snippet>
+	<content>
+
+  <![CDATA[
+
+  @* PICTURE - MediaPicker *@
+  @Html.UmbracoPicture(
+      mediaId: Model.Content.GetPropertyValue<IEnumerable<IPublishedContent>>("kopbeeld")?.FirstOrDefault()?.Id,
+      crop: EnmCrop.Landscape,
+      aspectRatio: EnmAspectRatio._16x9,
+      quality: 100,
+      width: 300,
+      sourceSets: new[] {
+          new SourceSet(width = 1280, mediaQuery = "(min-width: 1024px)"),
+          new SourceSet(width = 1024, mediaQuery = "(min-width: 768px)"),
+          new SourceSet(width: 768, mediaQuery: "(min-width: 480px)")
+      }
+  )
+
+  ]]>	
+
+	</content>
+
+	<tabTrigger>pic-crop</tabTrigger>
+  <description>PictureElement: ImageCropper</description>
+	<scope>source.html</scope>
+
+</snippet>

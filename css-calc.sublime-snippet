@@ -1,0 +1,14 @@
+<snippet>
+	<content>
+
+	<![CDATA[
+		~"calc({1:js-buttonName} + {1:js-buttonName})"
+	]]>	
+
+	</content>
+
+
+	<tabTrigger>calculate</tabTrigger>
+	<description>CSS/LESS: Calculate</description>
+
+</snippet>
