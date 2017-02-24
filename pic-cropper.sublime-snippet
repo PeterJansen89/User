@@ -23,6 +23,5 @@
 
 	<tabTrigger>pic-crop</tabTrigger>
   <description>PictureElement: ImageCropper</description>
-	<scope>source.html</scope>
 
 </snippet>

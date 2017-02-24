@@ -21,8 +21,7 @@
 
 	</content>
 
-	<tabTrigger>pic-picker</tabTrigger>
+	<tabTrigger>pic-pick</tabTrigger>
   <description>PictureElement: MediaPicker</description>
-	<scope>source.html</scope>
 
 </snippet>
