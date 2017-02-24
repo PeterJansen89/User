@@ -21,8 +21,8 @@
 
 	</content>
 
-	<tabTrigger>pic-crop</tabTrigger>
-  <description>PictureElement: ImageCropper</description>
+	<tabTrigger>pic-picker</tabTrigger>
+  <description>PictureElement: MediaPicker</description>
 	<scope>source.html</scope>
 
 </snippet>
