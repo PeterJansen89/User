@@ -2,7 +2,7 @@
 	<content>
 
 	<![CDATA[
-		~"calc({1:js-buttonName} + {1:js-buttonName})"
+		~"calc(${1:calc1} + ${2:calc2})"
 	]]>	
 
 	</content>
