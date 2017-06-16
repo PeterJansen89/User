@@ -1,0 +1,34 @@
+<snippet>
+	<content>
+
+<![CDATA[
+
+<form action="" class="f-switch-wrapper">
+    <input class="f-switch-input" name="radio-switch" id="radio-switch-1" type="radio" checked>
+    <label class="f-switch-label" for="radio-switch-1">First check</label>
+
+    <input class="f-switch-input" name="radio-switch" id="radio-switch-2" type="radio">
+    <label class="f-switch-label" for="radio-switch-2">Second check</label>
+</form>
+
+
+LESS // RADIO SWITCH
+
+@f-switch-height: 5rem;
+
+.f-switch-wrapper {border: .2rem solid blue; width: auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; height: @f-switch-height; border-radius: @f-switch-height;}
+
+.f-switch-input {position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px,1px,1px,1px);}
+
+.f-switch-label {border-radius: @f-switch-height; color: blue; flex-grow: 1; display: inline-block; line-height: 1; height: 100%; line-height: @f-switch-height - .5rem; padding: 0 5rem; text-align: center;}
+
+.f-switch-input:checked + .f-switch-label {background: blue; color: white;}
+
+]]>	
+
+	</content>
+
+	<tabTrigger>radioswitch</tabTrigger>
+	<description>Script: Viewport Checker</description>
+
+</snippet>
