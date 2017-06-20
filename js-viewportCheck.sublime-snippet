@@ -3,10 +3,10 @@
 
 <![CDATA[
 
-/* Download + place in plugin /
-https://github.com/protonet/jquery.inview/blob/master/jquery.inview.js
-*
+
 // VIEWPORT CHECKER
+
+/* PLUGIN: https://raw.githubusercontent.com/protonet/jquery.inview/master/jquery.inview.js */
 
 \$('js-viewport').on('inview', function(event, isInView) {
   if (isInView) {
