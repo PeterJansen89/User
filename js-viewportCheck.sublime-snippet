@@ -8,7 +8,7 @@
 
 /* PLUGIN: https://raw.githubusercontent.com/protonet/jquery.inview/master/jquery.inview.js */
 
-\$('js-viewport').on('inview', function(event, isInView) {
+\$('.js-viewport').on('inview', function(event, isInView) {
   if (isInView) {
     // element is now visible in the viewport
     // example: \$(this).addClass('s-inview');
