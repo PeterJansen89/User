@@ -3,18 +3,18 @@
 
 <![CDATA[
 
-/* Download + place in plugin 
-<!-- https://github.com/protonet/jquery.inview/blob/master/jquery.inview.js -->
-
+/* Download + place in plugin /
+https://github.com/protonet/jquery.inview/blob/master/jquery.inview.js
+*
 // VIEWPORT CHECKER
 
 \$('js-viewport').on('inview', function(event, isInView) {
   if (isInView) {
     // element is now visible in the viewport
-    // example: $(this).addClass('s-inview');
+    // example: \$(this).addClass('s-inview');
   } else {
     // element has gone out of viewport
-    // example: $(this).removeClass('s-inview');
+    // example: \$(this).removeClass('s-inview');
   }
 });
 
